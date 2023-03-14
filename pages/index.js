@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-solid">
+    <div className="min-h-screen">
       <Head>
         <title>BOOSTbuilder</title>
         <meta name="description" content="Your source for high-performance car parts" />
@@ -12,10 +12,12 @@ export default function Home() {
       </Head>
 
 {/* Navbar import */}
-      <Navbar className="bg-solid"/>
+      <Navbar/>
 
-      <main className="container mx-auto my-8 px-4 text-primary-2">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">Welcome to <span className="text-primary">BOOST</span>builder</h1>
+{/* Main body */}
+
+      <main className="container mx-auto my-8 px-4 text-primary-2 font-tiltwarp">
+        <h1 className="text-4xl font-medium text-gray-900 mb-4">Welcome to <span className="text-primary font-bold">BOOST</span>builder</h1>
         <p className="text-lg text-gray-700 mb-8">Your source for high-performance car parts</p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

@@ -8,8 +8,8 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-primary-2 text-white font-tiltwarp">
-      <div className="container mx-auto py-4 px-4 md:flex md:items-center md:justify-between bg-gray-200">
+    <nav className="text-white font-tiltwarp bg-primary-2">
+      <div className="container mx-auto py-4 px-4 md:flex md:items-center md:justify-between">
         <div className="flex items-center justify-between">
           <a href="/" className="text-xl"><span className='font-bold text-primary'>BOOST</span><span className='font-medium font-secondary-1'>builder
           </span></a>
@@ -32,19 +32,19 @@ function Navbar() {
           } md:flex md:items-center w-full md:w-auto`}
         >
           <div className="flex flex-col md:flex-row md:items-center md:space-x-8">
-              <a href="/" className="text-lg hover:text-gray-300 py-2 md:py-0">
+              <a href="/" className="text-lg hover:text-primary py-2 md:py-0">
                 Home
               </a>
-              <a href="/products?type=suspension" className="text-lg hover:text-gray-300 py-2 md:py-0">
+              <a href="/products?type=suspension" className="text-lg hover:text-primary py-2 md:py-0">
                 Suspension
               </a>
-              <a href="/products?type=exhaust" className="text-lg hover:text-gray-300 py-2 md:py-0">
+              <a href="/products?type=exhaust" className="text-lg hover:text-primary py-2 md:py-0">
                 Exhaust
               </a>
-              <a href="/products?type=intake" className="text-lg hover:text-gray-300 py-2 md:py-0">
+              <a href="/products?type=intake" className="text-lg hover:text-primary py-2 md:py-0">
                 Intake
               </a>
-              <a href="/cart" className="text-lg hover:text-gray-300 py-2 md:py-0">
+              <a href="/cart" className="text-lg hover:text-primary py-2 md:py-0">
                 Cart
               </a>
           </div>
