@@ -1,10 +1,15 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Navbar from "../components/Navbar";
+import Stripe from 'stripe';
+
+export const getServerSideProps: GetServerSideProps = async (context) => {
+  const stripe = 
+}
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-solid">
       <Head>
         <title>BOOSTbuilder</title>
         <meta name="description" content="Your source for high-performance car parts" />
